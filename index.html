@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+	<main class="center">
+		<section class="create-todo">
+			<h3>Works To Be Done</h3>
+			<form id="new-todo-form">
+				<h4>What's on your todo?</h4>
+				<input type="text" placeholder="Enter todo's here.." name="content" id="content" required />
+				<input type="submit" value="Add todo" />
+			</form>
+		</section>
+		<section class="todo-list">
+			<div class="list" id="todo-list">
+			</div>
+			<div class="el_del_btn">
+				<input type="button" id="trash" class="delbtn" value="Delete All" />
+				<button type="button" id="upload_text" class="text_file">Create Text File</button>
+			</div>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>
